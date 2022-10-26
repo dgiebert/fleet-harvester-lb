@@ -8,4 +8,4 @@ helm:
   version: 0.4.2
   values:
     config:
-      vip_interface: eth0
+      "vip_interface": "eth0"

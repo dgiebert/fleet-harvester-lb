@@ -5,4 +5,4 @@ helm:
   releaseName: harvester-load-balancer
   chart: harvester-load-balancer
   repo: https://charts.harvesterhci.io
-  version: 0.1.13
+  version: 0.1.3
