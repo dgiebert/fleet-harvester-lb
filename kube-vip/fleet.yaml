@@ -1,0 +1,11 @@
+defaultNamespace: kube-system
+
+# Custom helm options
+helm:
+  releaseName: kube-vip
+  chart: kube-vip
+  repo: https://kube-vip.io/helm-charts
+  version: 0.4.2
+  values:
+    config:
+      vip_interface: eth0
